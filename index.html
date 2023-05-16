@@ -8,7 +8,6 @@
     <link rel="stylesheet"href="assests/css.css">
     <!--<base href="https://sanchana.000webhostapp.com/">-->
 
-
     <meta name="keywords" content="Sanchana,sanchana,Gimhan,Web Designer,Fullstack Developer">
     <meta name="description" content="I'm still studying on Institute of software Engineering and I'm into Fullstack Developer">
     <meta name="author" content="SGRanasinghe">
@@ -17,98 +16,142 @@
     <meta name="theme-color" content="blue">
 
     <link rel="icon" href="MyLogo.png">
+    <link rel="stylesheet" href="assests/normalize.css">
+    <link rel="stylesheet" href="assests/fontAwesome/css/all.css">
 </head>
 <body>
-    <header>
-        <aside>
-            <img id="Home">
-        </aside>
-        <nav>
-            <menu>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Education"></a> Education</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Service</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-            </menu>
-        </nav>
-    </header>
+<header>
+    <aside>
+        <img src="assests/Images/Mylogo.jpg" alt="This is main logo" height="60">
+        <h1>Sana</h1>
+    </aside>
+    <nav>
+        <menu>
+            <li><a href="#nav">Home</a></li>
+            <li><a href="#AboutMe">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </menu>
+    </nav>
+</header>
 
     <main>
-        <section> <!--Home Section-->
+        <section>
             <aside>
-                <picture>
-                    <!--<img src="assests/Images/Home%20Background.jpg" alt="HomeBackground" width="1440">-->
-                    <img src="assests/Images/MyProfile.png">
-                </picture>
-
+                <img src="assests/Images/MyProfile.png" alt="This is my main Image">
             </aside>
             <article>
-                <h2>I am Sanchana Gimhan</h2>
-                <h1>A Software Engineer</h1>
-                <h1>From Sri Lanka</h1>
+                <h2 style="color: #341f97">I'm Sanchana Gimhan</h2>
+                <h2 style="color: #341f97">A <span style="color: #DCC704">Software Engineer</span></h2>
+                <h3>From Srilanka</h3>
             </article>
 
-            <nav>Follow Me On</nav>
-            <nav>
-                <IMG src="assests/Images/follow%20on/icons8-facebook-48.png">
-                <IMG src="assests/Images/follow%20on/icons8-instagram-48.png">
-                <IMG src="assests/Images/follow%20on/icons8-git-50.png">
-                <IMG src="assests/Images/follow%20on/icons8-linkedin-48.png">
+            <nav><button style="background-color: blue"><a style="color: azure" href="#AboutMe">Follow Me</a>
+                <i class="fa-solid fa-arrow-down" style="color: #ffffff;"></i></button></nav><br>
+            <nav id="sosial">
+                <div><img usemap="#instaMap" src="assests/Images/follow%20on/icons8-facebook-48.png" alt="This is an icon" width="45"></div>
+                <map name="instaMap">
+                    <area shape="circle" coords="0,0,55" href="https://web.facebook.com/SanaBoy2001" target="_blank"
+                          alt="">
+                </map>
+
+                <div><img usemap="#fbMap" src="assests/Images/follow%20on/icons8-instagram-48.png" alt="This is an icon"></div>
+                <map name="fbMap">
+                    <area shape="circle" coords="0,0,55" href="https://web.facebook.com/SanaBoy2001"
+                          target="_blank" alt="">
+                </map>
+
+                <div><img usemap="#gitMap" src="assests/Images/follow%20on/icons8-linkedin-48.png" alt="This is an icon"></div>
+                <map name="gitMap">
+                    <area shape="circle" coords="0,0,55" href="https://www.linkedin.com/in/sanchana-gimhan-9a5735264/" target="_blank" alt="">
+                </map>
+
+                <div><img usemap="#linkeMap" src="assests/Images/follow%20on/icons8-git-50.png" alt="This is an icon"></div>
+                <map name="linkeMap">
+                    <area shape="circle" coords="0,0,55" href="https://github.com/sanaBoy2001"
+                          target="_blank" alt="">
+                </map>
+
             </nav>
+            <p id="nav">hi</p>
         </section>
 
-        <section> <!--About Section-->
+        <section>
+            <h1 id="AboutMe"><i class="fa-sharp fa-solid fa-user"></i> About Me...</h1>
+
+            <p>I am a Student at IJSE (Institute of Java Software Engineering) and <br>currently Completing My Second Semester..</p>
+            <p>I Came to the Institute By Completing My A/L’s..I have Knowledge <br>
+                to design UI/UX interfaces and Build a Software and Design a
+                Web Site..</p>
+
+            <p><span style="color: blue">Full Name : </span>Sanchana Gimhan Ranasinghe</p>
+            <p><span style="color: blue">Age :</span>21</p>
+            <p><span style="color: blue">Nationality :</span>Srilankan</p>
+            <p><span style="color: blue">Birthday : </span>2001/10/11</p>
+            <p><span style="color: blue">Lives In : </span>Karandeniya</p>
+            <p><span style="color: blue">Phone : </span>0767888144</p>
+            <p><span style="color: blue">Email : </span>www.allinone2001@gmail.com</p>
+
+<!--            <p><a href="assest/01.pdf" download="cv.pdf">Download My <span style="color: blue">CV</span></a></p>-->
+
             <aside>
-
+                <img src="assests/Images/About%20img.png" alt="This is my Image" height="400">
             </aside>
-            <h1 id="About">About Me</h1>
-
-            <p><a href="Nimesha%20Lakshmi-1.pdf" download="CV.pdf">Download My Cv</a> </p>
-            <article></article>
         </section>
 
         <section> <!--Education Section-->
             <h1 id="Education">Education</h1>
-            <article>
-                <object type="application/pdf"
-                        data="assests/Other/Nimesha%20Lakshmi-1.pdf"
-                        width="250"
-                        height="200">
-                </object>
+            <div></div> <!--center Line-->
 
-                <iframe id="inlineFrameExample"
-                        title="Ijse Site"
-                        width="800"
-                        height="200"
-                        src="https://www.ijse.lk/">
-                </iframe>
+            <img src="assests/Images/arrow.png"> <!--arrow image-->
+            <img src="assests/Images/arrow.png"> <!--arrow image-->
+            <img src="assests/Images/arrow.png"> <!--arrow image-->
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/236uDpmaXcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <section>
+                <img src="assests/Images/Home%20Icon.png">
+                <article>
+                    <h2>2021 - Present</h2>
+                    <h2>Bsc (Hons).in Computer Science.</h2>
+                    <h2>IJSE - Institute Of Software Engineering..</h2>
+                </article>
+            </section>
 
+            <section>
+                <img src="assests/Images/Home%20Icon.png">
+                <article>
+                    <h2>2018 - 2020</h2>
+                    <h2>A/L’S - Advanced Levels.</h2>
+                    <h2>G / Karandeniya Central College..</h2>
+                </article>
+            </section>
 
+            <section>
+                <img src="assests/Images/Home%20Icon.png">
+                <article>
+                    <h2>2016 - 2018</h2>
+                    <h2>O/L’S - Ordinary Levels.</h2>
+                    <h2>G / Karandeniya Central College..</h2>
+                </article>
+            </section>
 
-            </article>
-            <article></article>
-            <article></article>
         </section>
 
         <section> <!--Skills Section-->
-            <h1>Skills</h1>
+            <h1 id="Skills">Skills</h1>
             <section>
-                <aside><h1></h1></aside>
-                <aside><h1></h1></aside>
-                <aside><h1></h1></aside>
+                <img src="assests/Images/java.png" alt="This is an icon" height="80" width="80">
+                <h1>JAVA</h1>
             </section>
 
             <section>
-                <aside><h1></h1></aside>
-                <aside><h1></h1></aside>
-                <aside><h1></h1></aside>
+                <img src="assests/Images/Html%20icon.png" alt="This is an icon" height="80" width="80">
+                <h1>HTML</h1>
             </section>
+
         </section>
 
         <section> <!--Projects Section-->

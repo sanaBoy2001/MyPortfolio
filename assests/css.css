@@ -1,11 +1,490 @@
 header{
-    background: white;
-    box-shadow: 1px 2px 3px 2px black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 1px 2px 3px -3px black;
+}
+
+header>aside>h1{
+    position: absolute;
+    top: -14px;
+    left: 59px;
+    font-size: 33px;
+    color: red;
+}
+
+header>nav>menu{
+    position: absolute;
+    top: -8px;
+    right: 20px;
+}
+
+header>nav>menu>li{
+    display: inline-block;
+    margin: 15px;
+}
+
+header>nav>menu>li>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+main>section:nth-child(1){
+    background: url("Images/Home Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main>:nth-child(1){
+    height: 93vh;
+}
+main>:nth-child(1)>aside>img{
+    position: absolute;
+    right: 100px;
+    top: 140px;
+    height: 65vh;
+    width: 30vw;
+}
+main>:nth-child(1)>article>:nth-child(1){
+    position: absolute;
+    left: 177px;
+    top: 160px;
+    font-size: 40px;
+}
+main>:nth-child(1)>article>:nth-child(2){
+    position: absolute;
+    left: 177px;
+    top: 237px;
+    font-size: 40px;
+}
+main>:nth-child(1)>article>:nth-child(3){
+    position: absolute;
+    left: 177px;
+    top: 318px;
+    font-size: 24px;
+}
+main>:nth-child(1)>nav>button{
+    position: absolute;
+    left: 177px;
+    top: 396px;
+    border-radius: 10px;
+    height: 36px;
+    width: 114px;
+}
+main>:nth-child(1)>nav>button>a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Black";
+}
+#sosial{
+    position: absolute;
+    left: 177px;
+    top: 465px;
+}
+main>:nth-child(1)>nav>div{
+    display: inline-block;
+    margin-right: 8px;
+}
+#nav{
+    position: absolute;
+    top: 0;
+    font-size: 0;
+}
+main>:nth-child(2){
+    height: 600px;
     position: relative;
 }
 
-header>nav>ul{
-    position: absolute;
-    top: 20px;
-    right: 50px;
+main>:nth-child(2){
+    background: url("Images/About Background.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
+#AboutMe { /*h1*/
+    display: inline-block;
+    position: relative;
+    left: 43%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 49px;
+    color: lightcoral;
+}
+
+main>:nth-child(2)>:nth-child(2){ /*P1*/
+    position: relative;
+    display: inline-block;
+    left: 385px;
+    top: 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+
+main>:nth-child(2)>:nth-child(3){ /*P2*/
+    position: relative;
+    display: inline-block;
+    left: 605px;
+    top: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+main>:nth-child(2)>:nth-child(4){ /*P3*/
+    position: relative;
+    display: inline-block;
+    top: 138px;
+    left: -112px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(5){ /*P4*/
+    position: relative;
+    display: inline-block;
+    top: 178px;
+    left: -564px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(6){ /*P5*/
+    position: relative;
+    display: inline-block;
+    top: 136px;
+    left: 623px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(7){ /*P6*/
+    position: relative;
+    display: inline-block;
+    top: 178px;
+    left: 388px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(8){ /*P7*/
+    position: relative;
+    display: inline-block;
+    top: 220px;
+    left: 163px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(9){ /*P8*/
+    position: relative;
+    display: inline-block;
+    top: 260px;
+    left: -78px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>:nth-child(10){ /*P9*/
+    position: relative;
+    display: inline-block;
+    top: 298px;
+    left: -288px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+main>:nth-child(2)>aside>img{
+    position: absolute;
+    top: 107px;
+    left: 133px;
+    border-radius: 12px;
+}
+
+main>:nth-child(3){ /*Education Section*/
+    background: url("Images/Education Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+#Education{ /*H1*/
+    display: inline-block;
+    position: relative;
+    left: 26px;
+    top: -3px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 49px;
+    color: lightcoral;
+}
+
+main>:nth-child(3)>:nth-child(2){ /*div*/
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 500px;
+    background-color: #110F2F;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+main>:nth-child(3)>:nth-child(3){ /*arrow icon*/
+    position: absolute;
+    right: 570px;
+    top: 80px;
+    width: 143px;
+    transform: rotate(180deg);
+}
+
+main>:nth-child(3)>:nth-child(4){ /*arrow icon*/
+    position: absolute;
+    right: 670px;
+    top: 287px;
+    width: 143px;
+}
+
+main>:nth-child(3)>:nth-child(5){ /*arrow icon*/
+    position: absolute;
+    right: 570px;
+    top: 500px;
+    width: 143px;
+    transform: rotate(180deg);
+}
+
+main>:nth-child(3)>:nth-child(6)>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 82px;
+    right: 525px;
+    height: 50px;
+}
+
+main>:nth-child(3)>:nth-child(6)>article>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 66px;
+    right: 393px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(6)>article>:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    right: 234px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+main>:nth-child(3)>:nth-child(6)>article>:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    top: 116px;
+    right: 155px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(7)>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 289px;
+    left: 532px;
+    height: 50px;
+}
+
+main>:nth-child(3)>:nth-child(7)>article>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 275px;
+    left: 425px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(7)>article>:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    top: 300px;
+    left: 308px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(7)>article>:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    top: 326px;
+    left: 231px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(8)>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 500px;
+    right: 525px;
+    height: 50px;
+}
+
+main>:nth-child(3)>:nth-child(8)>article>:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    top: 482px;
+    right: 416px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(8)>article>:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    top: 507px;
+    right: 301px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(3)>:nth-child(8)>article>:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    top: 532px;
+    right: 221px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main>:nth-child(4){ /*Skills Section*/
+    background: url("Images/Skills Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+
+}
+
+#Skills{
+    display: inline-block;
+    position: relative;
+    left: 640px;
+    top: -4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    color: lightcoral;
+}
+
+main>:nth-child(4)>:nth-child(2)>h1{ /*java*/
+    position: relative;
+    color: white;
+    left: 356px;
+    top: -62px;
+}
+
+
+main>:nth-child(4)>:nth-child(2)>img{ /*java*/
+    position: relative;
+    left: 252px;
+    top: 5px;
+}
+
+main>:nth-child(4)>:nth-child(3)>h1{ /*Html*/
+    position: relative;
+    color: white;
+    left: 356px;
+    top: -62px;
+}
+
+
+main>:nth-child(4)>:nth-child(3)>img{ /*html*/
+    position: relative;
+    left: 252px;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
