@@ -454,32 +454,165 @@ main>:nth-child(4){ /*Skills Section*/
 }
 
 main>:nth-child(4)>:nth-child(2)>h1{ /*java*/
+    display: inline-block;
     position: relative;
     color: white;
-    left: 356px;
-    top: -62px;
+    left: 325px;
+    top: -44px;
 }
 
 
 main>:nth-child(4)>:nth-child(2)>img{ /*java*/
+    display: inline-block;
     position: relative;
-    left: 252px;
-    top: 5px;
+    left: 300px;
+    top: -33px;
 }
 
 main>:nth-child(4)>:nth-child(3)>h1{ /*Html*/
+    display: inline-block;
     position: relative;
     color: white;
-    left: 356px;
-    top: -62px;
+    left: 338px;
+    top: -27px;
 }
 
 
 main>:nth-child(4)>:nth-child(3)>img{ /*html*/
+    display: inline-block;
     position: relative;
-    left: 252px;
-    top: 5px;
+    left: 311px;
+    top: -9px;
 }
+
+main>:nth-child(4)>:nth-child(4)>h1{ /*photoshop*/
+    display: inline-block;
+    position: relative;
+    color: white;
+    left: 338px;
+    top: -7px;
+}
+
+
+main>:nth-child(4)>:nth-child(4)>img{ /*photoshop*/
+    display: inline-block;
+    position: relative;
+    left: 311px;
+    top: 18px;
+}
+
+main>:nth-child(4)>:nth-child(5)>h1{ /*Figma*/
+    display: inline-block;
+    position: relative;
+    color: white;
+    right: -871px;
+    top: -348px;
+}
+
+
+main>:nth-child(4)>:nth-child(5)>img{ /*Figma*/
+    display: inline-block;
+    position: relative;
+    right: -855px;
+    top: -329px;
+}
+
+main>:nth-child(4)>:nth-child(6)>h1{ /*Coding*/
+    display: inline-block;
+    position: relative;
+    color: white;
+    right: -871px;
+    top: -330px;
+}
+
+
+main>:nth-child(4)>:nth-child(6)>img{ /*Coding*/
+    display: inline-block;
+    position: relative;
+    right: -855px;
+    top: -310px;
+}
+
+main>:nth-child(4)>:nth-child(7)>h1{
+    display: inline-block;
+    position: relative;
+    bottom: 157px;
+    left: 431px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+main>:nth-child(5){ /*Projects Section*/
+    background: url("Images/projects background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+#Projects{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    color: lightcoral;
+}
+
+main>:nth-child(5)>:nth-child(2){
+    display: inline-block;
+    position: relative;
+    right: -680px;
+    top: -4px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+main>:nth-child(5)>:nth-child(3)>div{
+    background: white;
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    left: 50px;
+    border-radius: 5px;
+}
+
+main>:nth-child(5)>:nth-child(3)>h1{
+    display: inline-block;
+    position: relative;
+    right: -680px;
+    top: -4px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+main>:nth-child(5)>:nth-child(4)>div{
+    background: white;
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    left: 394px;
+    border-radius: 5px;
+    top: -404px;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
 
